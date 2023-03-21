@@ -48,6 +48,7 @@ Runs the app in the development mode. Open http://localhost:3000 to view it in t
 
 #### client
 * React 18
+* React Router Dom v6
 * MaterialUI
 * Styled Components
 * Redux-toolkit
