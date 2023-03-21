@@ -7,7 +7,7 @@ import Container from "@mui/material/Container";
 const FooterContainer = styled('footer')(({ theme }) => ({
     padding: theme.spacing(2),
     marginTop: 'auto',
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: theme.palette.background.alt,
 }));
 
 const Footer = () => {
