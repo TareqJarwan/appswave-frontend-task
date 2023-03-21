@@ -4,6 +4,12 @@ A simple e-commerce application with with a login page, a product page, and a ca
 ## Demo
 https://appswave-ecomerce-frontend.onrender.com
 
+#### credentials
+Field  | Value
+------------- | -------------
+username  | admin
+password  | 123456
+
 ## Features
 * dark and light mode
 * user friendly 
