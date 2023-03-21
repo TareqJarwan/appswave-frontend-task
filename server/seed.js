@@ -22,10 +22,10 @@ const startSeeding = async () => {
     User.insertMany(users)
       .then(() => console.log("Users seeded successfully"))
       .catch((err) => console.error(err));
+
+    mongoose.connection.close();
   } catch (error) {
     console.log(error);
-  } finally {
-    // mongoose.connection.close();
   }
 };
 

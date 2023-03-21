@@ -56,7 +56,7 @@ const CartPage = () => {
       field: "userId",
       headerName: "Item",
       flex: 2,
-      align: "start",
+      align: "left",
       sortable: false,
       headerAlign: "center",
       renderCell: (params) => {

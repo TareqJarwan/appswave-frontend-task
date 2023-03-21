@@ -52,7 +52,7 @@ const LoginPage = () => {
       <Grid container component="main">
         <CssBaseline />
 
-        <Grid item xs={12} sm={8} md={5} square marginX="auto">
+        <Grid item xs={12} sm={8} md={5} marginX="auto">
           <Box
             sx={{
               my: 8,

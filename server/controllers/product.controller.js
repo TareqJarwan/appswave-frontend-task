@@ -4,8 +4,6 @@ const getAllProducts = async (req, res) => {
   try {
     const { page = 0, pageSize = 10 } = req.query;
 
-    console.log(page, pageSize);
-
     const products = await Product.find()
       .skip((page - 1) * pageSize)
       .limit(pageSize);
