@@ -4,6 +4,8 @@ A simple e-commerce application with with a login page, a product page, and a ca
 ## Demo
 https://appswave-ecomerce-frontend.onrender.com
 
+deploy the server and client on [https://render.com/](https://render.com/)
+
 #### credentials
 Field  | Value
 ------------- | -------------
@@ -15,6 +17,7 @@ password  | 123456
 * user friendly 
 * Simultaneous UI changes
 * Easy and well designed UI and UX
+* Protected Routes
 
 ## Requirements
 For development, you will only need Node.js (16+) installed on your environnement.
